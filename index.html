@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>teaortae</title>
+  <meta name="description" content="Intro page" />
+  <style>
+    :root{--bg1:#0b1220;--bg2:#050814;--text:#101828;--muted:#667085;--line:#eaecf0}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;min-height:100vh;display:grid;place-items:center;background:linear-gradient(180deg,var(--bg1),var(--bg2));}
+
+    /* Layout */
+    .wrap{width:100%;display:grid;place-items:center;padding:16px}
+    .phone{width:min(430px,100%);background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.10)}
+
+    /* Top bar */
+    .topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line)}
+    .handle{font-weight:900;font-size:18px;letter-spacing:.2px}
+    .icons{display:flex;gap:10px;color:#111;user-select:none}
+
+    /* Profile */
+    .profile{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:16px}
+    .avatar{width:84px;height:84px;border-radius:999px;display:grid;place-items:center;background:linear-gradient(135deg,#f58529,#dd2a7b,#8134af,#515bd4)}
+    .avatarText{width:74px;height:74px;border-radius:999px;background:#fff;display:grid;place-items:center;font-weight:900;letter-spacing:.6px}
+
+    .stats{display:grid;gap:8px}
+    .name{font-weight:900}
+    .numbers{display:flex;gap:18px;align-items:flex-end;flex-wrap:wrap}
+    .stat{min-width:70px}
+    .statValue{font-weight:900;font-size:18px}
+    .statLabel{color:var(--muted);font-size:12px}
+
+    /* Bio */
+    .bio{padding:0 16px 10px;color:#111}
+    .bioLine{font-size:13px;line-height:1.45}
+    .link{display:inline-block;margin-top:6px;font-size:13px;color:#175cd3;text-decoration:none;word-break:break-all}
+    .link:hover{text-decoration:underline}
+
+    /* Actions */
+    .actions{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:8px;padding:10px 16px}
+    .btn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:10px 10px;font-weight:800;cursor:pointer}
+    .btn:active{transform:translateY(1px)}
+
+    /* Highlights */
+    .highlights{display:flex;gap:14px;overflow:auto;padding:10px 16px 14px;-webkit-overflow-scrolling:touch}
+    .hl{min-width:72px;display:grid;justify-items:center;gap:6px}
+    .hlCircle{width:62px;height:62px;border-radius:999px;border:2px solid var(--line);display:grid;place-items:center;font-size:20px;background:#fff}
+    .hlTitle{font-size:12px;color:#111;text-align:center}
+
+    /* Tabs + grid */
+    .gridTabs{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .tab{padding:10px 0;text-align:center;color:#98a2b3;user-select:none}
+    .tab.active{color:#111}
+
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--line)}
+    .tile{aspect-ratio:1/1;background:#d0d5dd;display:grid;place-items:center;color:#fff;font-weight:900}
+
+    /* Bottom nav */
+    .nav{display:grid;grid-template-columns:repeat(5,1fr);padding:12px 10px;border-top:1px solid var(--line)}
+    .navItem{text-align:center;color:#111;font-size:18px;user-select:none}
+
+    /* Mobile tweaks */
+    @media (max-width: 420px){
+      .wrap{padding:10px}
+      .profile{grid-template-columns:84px 1fr}
+      .numbers{gap:12px}
+      .stat{min-width:64px}
+      .actions{grid-template-columns:1fr 1fr;grid-auto-rows:minmax(40px,auto)}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="phone">
+      <header class="topbar">
+        <div class="handle">dynamicrunners</div>
+        <div class="icons" aria-hidden>
+          <span>🔔</span>
+          <span>⋯</span>
+        </div>
+      </header>
+
+      <section class="profile">
+        <div class="avatar" aria-label="profile image">
+          <div class="avatarText">DR</div>
+        </div>
+
+        <div class="stats">
+          <div class="name">DYNAMIC RUNNERS</div>
+          <div class="numbers">
+            <div class="stat"><div class="statValue">594</div><div class="statLabel">게시물</div></div>
+            <div class="stat"><div class="statValue">879</div><div class="statLabel">팔로워</div></div>
+            <div class="stat"><div class="statValue">725</div><div class="statLabel">팔로잉</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bio">
+        <div class="bioLine">아마추어 스포츠팀</div>
+        <div class="bioLine">::다이나믹한 러닝 크루</div>
+        <div class="bioLine">▶일정 : 수,일 20:00 + 자유벙개런</div>
+        <div class="bioLine">▶장소 : 도림천 및 서울대,보라매,여의도,한강 일정러닝</div>
+        <div class="bioLine">▶신입 상시모집, 지인 캐스트 러닝 환영 (DM)</div>
+        <a class="link" href="https://somoim.friendscube.com/g/dd2be5e0-88ae" target="_blank" rel="noreferrer">somoim.friendscube.com/g/dd2be5e0-88ae…</a>
+      </section>
+
+      <section class="actions">
+        <button class="btn" type="button">팔로잉 ▾</button>
+        <button class="btn" type="button">메시지</button>
+        <button class="btn" type="button">이메일</button>
+        <button class="btn" type="button">＋</button>
+      </section>
+
+      <section class="highlights">
+        <div class="hl"><div class="hlCircle">🏃</div><div class="hlTitle">마라톤</div></div>
+        <div class="hl"><div class="hlCircle">💙</div><div class="hlTitle">EVENT</div></div>
+        <div class="hl"><div class="hlCircle">💗</div><div class="hlTitle">굿즈</div></div>
+        <div class="hl"><div class="hlCircle">📅</div><div class="hlTitle">2024정규런</div></div>
+      </section>
+
+      <section class="gridTabs" aria-hidden>
+        <div class="tab active">▦</div>
+        <div class="tab">▶</div>
+        <div class="tab">↻</div>
+        <div class="tab">👤</div>
+      </section>
+
+      <section class="grid" aria-label="posts grid">
+        <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+        <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+      </section>
+
+      <footer class="nav" aria-hidden>
+        <div class="navItem">⌂</div>
+        <div class="navItem">⌕</div>
+        <div class="navItem">＋</div>
+        <div class="navItem">▶</div>
+        <div class="navItem">●</div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
