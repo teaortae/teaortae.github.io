@@ -21,12 +21,22 @@ darkmode: false
 github_username: teaortae
 
 additional_links:
+  - title: 디저트39 앱
+    icon: fas fa-mobile-alt
+    url: https://play.google.com/store/apps/details?id=com.mandeum.dessert39&hl=ko
+  - title: 삼구AI헬퍼
+    icon: fas fa-robot
+    url: https://play.google.com/store/apps/details?id=com.smc.dessert39admin&hl=ko
+  - title: 디저트39 DID 앱
+    icon: fas fa-tv
+    url: https://play.google.com/store/apps/details?id=com.smc.signage&hl=ko
   - title: BIBLY Lab
     icon: fas fa-link
     url: https://www.biblylab.com
 
 # About Section
 about_title: About Me
+about_profile_image: /assets/profile.jpg
 about_content: |
   10년 이상 Android 앱 개발을 수행한 Android Software Engineer입니다. Java 기반 Android Native 개발로 시작해 Kotlin, Coroutine, Flow/StateFlow, Jetpack Compose, Ktor, MVI, DI 구조 전환까지 실무에 적용해 왔습니다.
 
