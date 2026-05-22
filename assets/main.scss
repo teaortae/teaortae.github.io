@@ -1,0 +1,43 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+}
+
+p,
+ul,
+li {
+  text-align: left;
+}
+
+.intro-container p,
+.content p {
+  line-height: 1.75;
+}
+
+.header-left h1 {
+  font-weight: 700;
+}
+
+.header-left h2,
+h3,
+h4 {
+  letter-spacing: 0;
+}
+
+.header-right a,
+.details a {
+  word-break: break-word;
+}
+
+.container {
+  max-width: 1040px;
+}
+
+mark {
+  background-color: #1464d2;
+}
