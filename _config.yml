@@ -43,6 +43,20 @@ about_content: |
   실서비스의 <mark>유지보수성</mark>, <mark>안정성</mark>, <mark>사용자 경험</mark>을 개선하는 방향으로 기술을 적용하는 것을 중요하게 생각합니다. 최근에는 디저트39 오더앱, 가맹점 운영 앱, AI Helper, Android TV DID 앱을 중심으로 서비스 앱 개발과 구조 개선을 담당했고, 사이드 프로젝트에서는 KMP/CMP 기반 클라이언트 구조를 적용하고 있습니다.
 
 content:
+  - title: BIBLY Lab KMP/CMP Side Project
+    layout: list
+    content:
+      - layout: top-right
+        title: BIBLY Lab
+        link: https://www.biblylab.com
+        link_text: BIBLY Lab
+        quote: >
+          지오펜싱 기반으로 사진을 찾는 앱을 KMP/CMP로 개발한 사이드 프로젝트입니다.
+        description: |
+          - **Role:** Client Main Role
+          - **Stack:** Kotlin Multiplatform(KMP), Compose Multiplatform(CMP), Koin, Orbit MVI, Ktor, Kotlinx Serialization, Android Jetpack
+          - **Highlight:** 위치 기반 컨텍스트와 사진 탐색 흐름을 중심으로 공통 비즈니스 로직, 네트워크 레이어, 상태 관리 구조를 재사용하도록 구성
+
   - title: Career Snapshot
     layout: text
     content: |
@@ -196,17 +210,6 @@ content:
 
           - **Stack:** Android Native, Java/Kotlin, Samsung Knox, LG MDM, Device Policy, Woosim Printer, Nexpa 번호판 인식 모듈
           - **Highlight:** OS 호환성, 제조사 SDK 업데이트, 보안 모듈, 현장 장비 연동, 공공기관 운영 환경 이슈 대응
-
-      - layout: top-right
-        title: BIBLY Lab KMP/CMP
-        link: https://www.biblylab.com
-        link_text: BIBLY Lab
-        quote: >
-          KMP/CMP를 적용 중인 클라이언트 사이드 프로젝트입니다.
-        description: |
-          - **Role:** Client Main Role
-          - **Stack:** Kotlin Multiplatform(KMP), Compose Multiplatform(CMP), Koin, Orbit MVI, Ktor, Android Jetpack
-          - **Highlight:** KMP/CMP 기반 클라이언트 구조 적용, Koin DI, Orbit 상태 관리, Ktor 네트워크, Android Jetpack 적용
 
   - title: Education
     layout: list
