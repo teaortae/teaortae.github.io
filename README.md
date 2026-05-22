@@ -1,0 +1,156 @@
+# 김태환 | Android Developer
+
+Android Developer · Kotlin · Jetpack Compose · KMP/CMP · Service Operation
+
+- Email: [teaortae@gmail.com](mailto:teaortae@gmail.com)
+- GitHub: [github.com/teaortae](https://github.com/teaortae)
+- Portfolio: [teaortae.github.io](https://teaortae.github.io)
+- Side Project: [BIBLY Lab](https://www.biblylab.com)
+
+## Summary
+
+10년 이상 Android 앱 개발을 수행한 Android Software Engineer입니다. Java 기반 Android Native 개발로 시작해 Kotlin, Coroutine, Flow/StateFlow, Jetpack Compose, Ktor, MVI, DI 구조 전환까지 실무에 적용해 왔습니다.
+
+실서비스의 유지보수성, 안정성, 사용자 경험을 개선하는 방향으로 기술을 적용하는 것을 중요하게 생각합니다. 최근에는 디저트39 오더앱, 가맹점 운영 앱, AI Helper, Android TV DID 앱을 중심으로 서비스 앱 개발과 구조 개선을 담당했고, 사이드 프로젝트에서는 KMP/CMP 기반 클라이언트 구조를 적용하고 있습니다.
+
+## Career Snapshot
+
+- Experience: 약 11년 5개월
+- Current: 에스엠씨인터내셔널 과장 / Android Developer
+- Main Focus: Android Native, Kotlin, Jetpack Compose, KMP/CMP, 오더앱/운영 앱 안정화
+- Domain: 프랜차이즈 오더앱, 가맹점 운영 앱, Android TV 사이니지, 교육/강의 앱, POS, QR 결제, MDM, 공공기관 앱
+- Working Style: 실서비스 운영 안정화, 점진적 구조 개선, 신규 기술의 현실적인 적용
+
+## Core Skills
+
+### Android & Kotlin
+
+Kotlin · Java · Kotlin Multiplatform(KMP) · Compose Multiplatform(CMP) · Jetpack Compose · Compose TV UI · Android Jetpack · XML UI · Coroutine · Flow · StateFlow · Paging3
+
+### Architecture
+
+MVVM · MVI · Hilt · Koin · Kodein · Voyager ScreenModel · Orbit MVI
+
+### Network & Storage
+
+Ktor Client · Retrofit2 · REST API · Kotlinx Serialization · DataStore · Room
+
+### Media, UI & Operations
+
+Media3 ExoPlayer · ExoPlayer2 · WebView · Coil · Glide · Epoxy · Lottie · Vector Animation · Firebase Messaging · Firebase Analytics · Firebase Crashlytics · Play Store 배포
+
+### Device & Field Integration
+
+CameraX · QR · SAM4S Printer · Woosim Printer · Nexpa 번호판 인식 모듈 · Samsung Knox · LG MDM · MDM/MIS/MAS
+
+## Work Experience
+
+### 에스엠씨인터내셔널 · 과장
+
+2023.02 - 재직중 · Android Developer
+
+- 디저트39 오더앱 신규 베이스 세팅 및 주요 주문, 상품, 알림, 정산 기능 개발
+- 디저트39 가맹점 앱 운영 기능 개발 및 유지보수
+- Kotlin, Coroutine, Flow/StateFlow 기반 상태 관리와 Jetpack Compose UI 개발
+- Ktor 기반 API 통신 구조 구성, 공통 네트워크 처리 및 에러 핸들링 개선
+- Hilt 적용 후 Koin/Voyager ScreenModel 구조 전환 경험
+- DataStore 사용자/기기 정보 저장, Room 상품/매뉴얼 캐싱 적용
+- Firebase Messaging, Firebase Analytics, Firebase Crashlytics 연동으로 운영 로그와 오류 추적 개선
+
+### 윌비스 · WCA 교육사업부 과장
+
+2021.12 - 2022.12 · Android Developer
+
+- 1억뷰 엔잡 Android 강의 앱 개발 및 유지보수
+- Google, Naver, Facebook, Apple, Kakao 소셜 로그인 적용
+- Google Play 인앱결제 연동 및 결제 플로우 구현
+- 100% Kotlin 기반 앱 개발
+- Kodein 기반 DI 구조 적용 및 Koin 마이그레이션 완료
+- Retrofit2, Glide, Epoxy, ExoPlayer2, WebView 기반 기능 구현
+
+### 알리엑스 · 대리
+
+2020.09 - 2021.11 · Android POS Developer
+
+- 베트남 납품용 Android POS 앱 개발 및 유지보수
+- 중국 개발사와 협업하여 기능 개발 및 이슈 대응
+- 결제, 주문, 매장 운영 관련 기능 유지보수
+- 베트남 편의점 시연용 QR 결제 앱 개발
+- QR 스캔, 결제 요청/응답 처리, 시연 환경 안정화
+
+### 엠티커뮤니케이션 · 연구개발팀 대리
+
+2020.03 - 2020.09 · Android / MDM Maintenance
+
+- 롯데하이마트, 롯데지주, AXA손해보험, 하나손해보험 MDM 유지보수
+- Samsung Knox, LG MDM 업데이트 관련 이슈 대응
+- Android 10 OS 업데이트 호환성 이슈 처리
+- Android 단말 Rooting Hide 관련 이슈 분석 및 대응
+- MDM, MIS, MAS 솔루션 정기점검 및 운영 안정화 지원
+
+### Earlier Experience
+
+- 페이셜 코리아 · 앱개발 대리 · 2018.08 - 2020.02
+  - 클라이언트 앱/POS 앱 개발, Java 코드 Kotlin 전환, Jetpack 적용, SAM4S 프린터 연동, Play Store 배포
+- 엑스아이티 · 불법주정차 모바일팀 주임/계장 · 2017.07 - 2018.08
+  - 지자체 불법주정차 단속 앱 개발, 모바일 전자정부 표준 적용, Woosim 프린터 및 Nexpa 번호판 인식 모듈 연동
+- 퍼틀 · 연구원 · 2016.09 - 2017.05
+  - 퍼틀 앱 개발, AdPopcorn, NAS, Naver Login, Firebase Remote Config 업데이트 팝업 적용
+- 에프아이티 · 신사업부 · 2015.01 - 2016.06
+  - 달아요 하이브리드 앱 개발, Cordova/Ionic/Angular, DB 설계, UX/UI 설계, Spring RESTful API 참여
+- 아이비정보 · 모바일연구 · 2014.08 - 2014.11
+  - 한국산업기술시험원 GIMS 모바일 앱 개발
+
+## Selected Projects
+
+### 디저트39 오더앱 / 가맹점 앱
+
+프랜차이즈 주문·매장 운영 흐름을 지원하는 Android 앱입니다. 주문, 상품, 정산, 알림, Q&A, 반품/회수, 사전예약, 물류 정보 관리 기능을 개발했습니다.
+
+- Stack: Kotlin, Jetpack Compose, Coroutine, Flow/StateFlow, Ktor, Koin, Voyager, DataStore, Room, Firebase Messaging, Firebase Analytics, Firebase Crashlytics, Paging3
+- Highlight: 신규 베이스 세팅, 공통 네트워크 처리 개선, 로컬 저장/캐싱 구조 적용, 운영 로그와 오류 추적 개선
+- Link: [DESSERT39 오더앱 - Google Play](https://play.google.com/store/apps/details?id=com.mandeum.dessert39&hl=ko)
+
+### 디저트39 DID TV 앱
+
+매장용 Android TV 디지털 메뉴판 앱입니다. 콘텐츠 다운로드, 로컬 영상 재생, 설정 관리, 백그라운드 다운로드를 지원합니다.
+
+- Stack: Kotlin, Compose TV UI, Ktor, Hilt, WorkManager, Media3 ExoPlayer, DataStore, Navigation 3, Orbit MVI
+- Highlight: Fragment/XML Navigation 구조를 Compose Navigation 3 기반으로 전환, Gson 의존성을 Kotlinx Serialization 기반으로 리팩토링
+- Link: [DID (DESSERT39) - Google Play](https://play.google.com/store/apps/details?id=com.smc.signage&hl=ko)
+
+### 1억뷰 엔잡 강의 앱
+
+강의 콘텐츠, 소셜 로그인, 인앱결제, 영상 재생, 상품 상세 WebView를 지원하는 Android 교육 앱입니다.
+
+- Stack: Kotlin, Jetpack, Kodein, Koin, Retrofit2, Glide, Epoxy, ExoPlayer2, WebView
+- Highlight: 주요 소셜 로그인 제공자 연동, Google Play 인앱결제 구현, Kodein에서 Koin으로 DI 마이그레이션
+
+### Enterprise / Public Android Projects
+
+MDM, MIS, MAS, 예비군 앱, 불법주정차 단속 앱, GIMS 등 기업·공공기관 Android 프로젝트를 유지보수하거나 개발했습니다.
+
+- Stack: Android Native, Java/Kotlin, Samsung Knox, LG MDM, Device Policy, Woosim Printer, Nexpa 번호판 인식 모듈
+- Highlight: OS 호환성, 제조사 SDK 업데이트, 보안 모듈, 현장 장비 연동, 공공기관 운영 환경 이슈 대응
+
+### BIBLY Lab KMP/CMP
+
+KMP/CMP를 적용 중인 클라이언트 사이드 프로젝트입니다.
+
+- Role: Client Main Role
+- Stack: Kotlin Multiplatform(KMP), Compose Multiplatform(CMP), Koin, Orbit MVI, Ktor, Android Jetpack
+- Highlight: KMP/CMP 기반 클라이언트 구조 적용, Koin DI, Orbit 상태 관리, Ktor 네트워크, Android Jetpack 적용
+- Link: [BIBLY Lab](https://www.biblylab.com)
+
+## Education
+
+- 아이티뱅크인재개발센터 · 웹솔루션 개발자 과정 · 2013.12 - 2014.04
+- 아이티뱅크인재개발센터 · 개발자 기초 과정(C, Java, Network, Linux) · 2013.03 - 2013.12
+- Wycherley International School · 졸업 · 2007
+
+## Certifications & Languages
+
+- 수치제어밀링기능사 · 2011.08
+- 수치제어선반기능사 · 2011.08
+- 자동차운전면허 · 2007.11
+- 영어: 비즈니스 회화 가능
