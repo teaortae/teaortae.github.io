@@ -13,6 +13,8 @@ Android Developer · Kotlin · Jetpack Compose · KMP/CMP · Service Operation
 
 실서비스의 유지보수성, 안정성, 사용자 경험을 개선하는 방향으로 기술을 적용하는 것을 중요하게 생각합니다. 최근에는 디저트39 오더앱, 가맹점 운영 앱, AI Helper, Android TV DID 앱을 중심으로 서비스 앱 개발과 구조 개선을 담당했고, 사이드 프로젝트에서는 KMP/CMP 기반 클라이언트 구조를 적용하고 있습니다.
 
+회사 업무 외에도 Android 권장 아키텍처와 실무 경험에서 쌓은 설계 방식을 바탕으로 Codex를 적극 활용하며 KMP/CMP 기반 멀티 플랫폼 사이드 프로젝트를 진행하고 있습니다.
+
 ## BIBLY Lab KMP/CMP Side Project
 
 지오펜싱 기반으로 사진을 찾는 앱을 Kotlin Multiplatform(KMP)와 Compose Multiplatform(CMP)를 이용해 개발한 사이드 프로젝트입니다.

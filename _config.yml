@@ -46,6 +46,8 @@ about_content: |
 
   실서비스의 <mark>유지보수성</mark>, <mark>안정성</mark>, <mark>사용자 경험</mark>을 개선하는 방향으로 기술을 적용하는 것을 중요하게 생각합니다. 최근에는 디저트39 오더앱, 가맹점 운영 앱, AI Helper, Android TV DID 앱을 중심으로 서비스 앱 개발과 구조 개선을 담당했고, 사이드 프로젝트에서는 KMP/CMP 기반 클라이언트 구조를 적용하고 있습니다.
 
+  회사 업무 외에도 Android 권장 아키텍처와 실무 경험에서 쌓은 설계 방식을 바탕으로 <mark>Codex</mark>를 적극 활용하며 KMP/CMP 기반 멀티 플랫폼 사이드 프로젝트를 진행하고 있습니다.
+
 content:
   - title: BIBLY Lab KMP/CMP Side Project
     layout: list
