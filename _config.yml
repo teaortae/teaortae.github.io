@@ -21,6 +21,8 @@ darkmode: false
 
 # Social links
 github_username: teaortae
+twitter:
+  card: summary_large_image
 
 additional_links:
   - title: 디저트39 앱
