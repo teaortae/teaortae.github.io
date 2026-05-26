@@ -4,7 +4,6 @@ Android Developer · Kotlin · Jetpack Compose · KMP/CMP · Service Operation
 
 - Email: [teaortae@gmail.com](mailto:teaortae@gmail.com)
 - GitHub: [github.com/teaortae](https://github.com/teaortae)
-- Portfolio: [teaortae.github.io](https://teaortae.github.io)
 - Side Project: [BIBLY Lab](https://www.biblylab.com)
 
 ## Summary
