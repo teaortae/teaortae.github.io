@@ -216,32 +216,6 @@ content:
           - **Stack:** Android Native, Java/Kotlin, Samsung Knox, LG MDM, Device Policy, Woosim Printer, Nexpa 번호판 인식 모듈
           - **Highlight:** OS 호환성, 제조사 SDK 업데이트, 보안 모듈, 현장 장비 연동, 공공기관 운영 환경 이슈 대응
 
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        border: weak
-        title: 아이티뱅크인재개발센터
-        sub_title: 웹솔루션 개발자 과정
-        caption: 2013.12 - 2014.04
-      - layout: top-right
-        border: weak
-        title: 아이티뱅크인재개발센터
-        sub_title: 개발자 기초 과정(C, Java, Network, Linux)
-        caption: 2013.03 - 2013.12
-      - layout: top-right
-        title: Wycherley International School
-        sub_title: 졸업
-        caption: 2007
-
-  - title: Certifications & Languages
-    layout: text
-    content: |
-      - 수치제어밀링기능사 · 2011.08
-      - 수치제어선반기능사 · 2011.08
-      - 자동차운전면허 · 2007.11
-      - 영어: 비즈니스 회화 가능
-
   - title: 자기소개서
     layout: text
     content: |
