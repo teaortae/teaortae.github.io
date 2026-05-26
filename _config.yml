@@ -211,7 +211,7 @@ content:
         quote: >
           기업·공공기관 Android 프로젝트를 유지보수하거나 개발했습니다.
         description: |
-          MDM, MIS, MAS, 예비군 앱, 불법주정차 단속 앱, GIMS 등 현장형 Android 프로젝트를 담당했습니다.
+          MDM, MIS, MAS, 예비군 앱, 불법주정차 단속 앱 등 현장형 Android 프로젝트를 담당했습니다.
 
           - **Stack:** Android Native, Java/Kotlin, Samsung Knox, LG MDM, Device Policy, Woosim Printer, Nexpa 번호판 인식 모듈
           - **Highlight:** OS 호환성, 제조사 SDK 업데이트, 보안 모듈, 현장 장비 연동, 공공기관 운영 환경 이슈 대응
